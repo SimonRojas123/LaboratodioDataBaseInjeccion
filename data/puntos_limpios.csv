@@ -1,0 +1,31 @@
+punto_id,nombre,comuna,region,capacidad_kg,estado,materiales
+PL-001,Punto Limpio 1,Curico,Maule,551,mantencion,papel|metal|vidrio
+PL-002,Punto Limpio 2,Curico,Maule,1885,activo,metal|plastico|vidrio
+PL-003,Punto Limpio 3,Talca,Maule,691,activo,papel|vidrio|carton
+PL-004,Punto Limpio 4,Constitucion,Maule,1966,mantencion,papel|plastico|carton
+PL-005,Punto Limpio 5,Molina,Maule,513,activo,plastico|carton|papel
+PL-006,Punto Limpio 6,Linares,Maule,940,mantencion,vidrio|metal|papel
+PL-007,Punto Limpio 7,Curico,Maule,1235,mantencion,metal|carton|vidrio
+PL-008,Punto Limpio 8,Cauquenes,Maule,1598,activo,plastico|vidrio|carton
+PL-009,Punto Limpio 9,Molina,Maule,1787,mantencion,metal|papel|carton
+PL-010,Punto Limpio 10,Curico,Maule,593,activo,carton|vidrio|plastico
+PL-011,Punto Limpio 11,Curico,Maule,1278,mantencion,plastico|carton|vidrio
+PL-012,Punto Limpio 12,Parral,Maule,1227,activo,carton|vidrio|metal
+PL-013,Punto Limpio 13,Linares,Maule,1593,activo,papel|plastico|metal
+PL-014,Punto Limpio 14,Molina,Maule,1810,activo,carton|vidrio|plastico
+PL-015,Punto Limpio 15,Talca,Maule,1146,mantencion,carton|vidrio|plastico
+PL-016,Punto Limpio 16,Parral,Maule,935,mantencion,plastico|metal|vidrio
+PL-017,Punto Limpio 17,Molina,Maule,785,activo,metal|carton|plastico
+PL-018,Punto Limpio 18,San Javier,Maule,1695,mantencion,carton|papel|vidrio
+PL-019,Punto Limpio 19,Cauquenes,Maule,686,activo,vidrio|papel|carton
+PL-020,Punto Limpio 20,Linares,Maule,1893,mantencion,metal|vidrio|papel
+PL-021,Punto Limpio 21,San Javier,Maule,1720,mantencion,metal|carton|plastico
+PL-022,Punto Limpio 22,Talca,Maule,1893,activo,metal|carton|plastico
+PL-023,Punto Limpio 23,Parral,Maule,728,mantencion,plastico|papel|metal
+PL-024,Punto Limpio 24,Talca,Maule,1978,mantencion,metal|papel|carton
+PL-025,Punto Limpio 25,Curico,Maule,1780,mantencion,metal|papel|vidrio
+PL-026,Punto Limpio 26,Parral,Maule,830,activo,metal|carton|papel
+PL-027,Punto Limpio 27,Talca,Maule,729,mantencion,carton|papel|vidrio
+PL-028,Punto Limpio 28,Constitucion,Maule,1661,activo,vidrio|plastico|metal
+PL-029,Punto Limpio 29,Linares,Maule,762,mantencion,metal|papel|plastico
+PL-030,Punto Limpio 30,San Javier,Maule,933,activo,carton|plastico|metal
