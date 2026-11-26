@@ -1,19 +1,30 @@
+
 import os
 import psycopg2
+from dotenv import load_dotenv
 
-try:
-    conexion = psycopg2.connect(
-        host="puntos-limpios.cgb82ymy6e27.us-east-1.rds.amazonaws.com",
-        database="puntos_limpios_db",
-        user="simon",
-        password=os.environ["DB_PASSWORD"],
-        port=5432,
+load_dotenv()
+
+
+def conectar_postgresql():
+    return psycopg2.connect(
+        host=os.getenv("DB_HOST"),
+        database=os.getenv("DB_NAME"),
+        user=os.getenv("DB_USER"),
+        password=os.getenv("DB_PASSWORD"),
+        port=int(os.getenv("DB_PORT", "5432")),
         sslmode="require",
         connect_timeout=10
     )
 
-    print("Conexión exitosa a PostgreSQL en AWS")
-    conexion.close()
 
-except Exception as error:
-    print("Error al conectar:", error)
+if __name__ == "__main__":
+    try:
+        conexion = conectar_postgresql()
+
+        print("Conexion exitosa a PostgreSQL en AWS")
+
+        conexion.close()
+
+    except Exception as error:
+        print("Error al conectar:", error)
